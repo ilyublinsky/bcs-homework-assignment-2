@@ -1,0 +1,28 @@
+nav {
+    text-align: auto;
+    text-emphasis-color: rgb(224, 240, 7);
+    background-color: rgb(5, 30, 59);
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    background-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1 {
+    text-size-adjust: 300px;
+    text-overflow: unset;
+    font-size: 40px;
+    font-variant: small-caps;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+footer {
+    text-indent: 100px;
+}
