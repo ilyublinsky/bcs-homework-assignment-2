@@ -1,28 +1,64 @@
-nav {
-    text-align: auto;
-    text-emphasis-color: rgb(224, 240, 7);
-    background-color: rgb(5, 30, 59);
-    padding-right: 80%;
-    padding-top: 50%;
-    font-size: 15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-body {
-    background-color: rgb(255, 218, 8);
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-
-h1 {
-    text-size-adjust: 300px;
-    text-overflow: unset;
+{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    border-style: double;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  
+  .header {
+    padding: 90px;
+    text-align: center;
+    background: #e63b08;
+    color: white;
+  }
+  
+  .header h1 {
     font-size: 40px;
-    font-variant: small-caps;
-    margin-right: 30%;
-}
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a.right {
+    float: right;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(221, 221, 221);
+    color: black;
+  }
 
-h2 {
-    font-size: 18px;
-}
+  section {
+      
+  }
+  
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Fake image, just for this example */
+  img {
+    background-color: #aaa;
+    width: 30%;
+    padding: 20px;
+  }
