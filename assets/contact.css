@@ -1,12 +1,49 @@
-* {
-    box-sizing: border-box;
+
+
+  .fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
   }
   
-  /* Style inputs */
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    size: 10px;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }  
+  
+  body {
+    background-color: rgb(255, 218, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 10px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
@@ -24,29 +61,20 @@
     background-color: #45a049;
   }
   
-  /* Style the container/contact section */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
+  container {
+    border: rgb(43, 124, 231);
+    border-radius: 50%;
+    background-color: #f19696;
     padding: 10px;
   }
   
-  /* Create two columns that float next to eachother */
   .column {
-    float: left;
+    float: center;
     width: 50%;
-    margin-top: 6px;
+    margin-top: 60px;
     padding: 20px;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
