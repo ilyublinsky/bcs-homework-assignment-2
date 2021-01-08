@@ -40,43 +40,33 @@
           <a href="https://twitter.com/ilyublinsky" class="fa fa-twitter"></a>
           <a href="https://www.linkedin.com/in/ingrid-lyublinsky/" class="fa fa-linkedin"></a>
           <a href="https://www.instagram.com/ingrid_lyub/" class="fa fa-instagram"></a>
-        </div>
-      <br>
-      <br>
-      <br>
-        <div class="row">
-          <div class="column">
           <br>
           <br>
           <br>
-          <div class="column">
-            <div style="text-align:center">
-            <form action="/action_page.php">
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              <br>
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <br>
-              <label for="date">Date</label>
-              <input type="text" id="date" name="date" placeholder="Date..">
-              <br>
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value=""></option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-              </select>
-              <br>
-              <label for="subject">SubjectS</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-              <br>
-              <input type="submit" value="Submit">
-            </form>
-        </div>
+          <div class="row">
+            <div class="column">
+              <img src="/bcs-homework-assignment-2/assets/index-images/full-body-photo.png" style="width:75%">
+            </div>
+            <div class="column">
+              <form action="mailto:ingrid.lyub@gmail.com"
+              method=”POST”
+              enctype=”multipart/form-data”
+              name=”EmailForm”>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br><br>
+                <div style="text-align:left">
+                <label for="subject">How can I help?</label></div>
+                <br>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:300px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
           </div>
         </div>
-      </div>
+
 
     <footer>
             <nav class="navbar navbar-expand-lg fixed-bottom navbar-color bg-color">

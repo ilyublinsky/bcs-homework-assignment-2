@@ -9,3 +9,4 @@ Edited contact html/css pages and added icons with links to all my pages. Also a
 Finished my Porfolio code html/css (navigation bar error still to fix). Added portfolio images folder. 1.7.21 (4:38PM)
 Added a background image to my index page and added more photos to the index-photos folder.
 Finished adding content to my 'About Me' page. 1.7.21 (10.26PM)
+Finished contact page. Couldn't get my submit function to email me. 1/7/21 (11:16PM)
