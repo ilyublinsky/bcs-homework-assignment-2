@@ -10,8 +10,8 @@
   .header {
     padding: 40px;
     margin-top: 70px;
-    margin-right: 90px;
-    margin-left: 90px;
+    margin-right: 400px;
+    margin-left: 400px;
     margin-bottom: 70px;
     text-align: center;
     background: #f1815f;
@@ -21,11 +21,51 @@
     color: white;
     font-stretch: ultra-expanded;
   }
+
+  p {
+    font-size: 15px;
+  }
   
   .header h1 {
     font-size: 40px;
     font-stretch: ultra-expanded;
   }
+
+  
+
+  .fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    size: 10px;
+  }
+  
+  .fa-instagram {
+    background: #f80fab;
+    color: white;
+  }  
   
   .navbar {
     overflow: hidden;
@@ -48,50 +88,17 @@
   .navbar a:hover {
     background-color: rgb(221, 221, 221);
   }
-
-  .card1 {
-    background-color: dodgerblue;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-right: 10px;
-    border-style: double;
-    float: inline-end;
-  }
-
-  .card2 {
-    background-color: dodgerblue;
-    margin-bottom: 0px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 100px;
-    border-style: double;
-    float: inline-end;
-  }
   
   .row {  
     display:-ms-grid;
     flex-wrap: nowrap;
   }
-  
-  img {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-  }
-
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-
 
   body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
     background: #f1f1f1;
+    text-align: center;
   }
 
   .header {
@@ -105,6 +112,8 @@
     float: right;
     width: 55%;
     text-overflow: ellipsis;
+    padding-right: 20px;
+    padding-right: 20px;
   }
   
   .rightcolumn {
@@ -122,7 +131,11 @@
   
   .card {
     background-color: rgb(162, 238, 252);
+    border-style: groove;
+    border-width: thick;
+    shape-image-threshold: inherit;
     padding: 20px;
+    margin-left: 10%;
     margin-top: 20px;
   }
   
