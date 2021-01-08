@@ -6,3 +6,4 @@ Added another image to my assets to help work structure my page. I also started 
 Edited the nav bars in teh header and footer so they are fixed in their positions. 1.2.20 (12:30AM)
 Decided to rework each page by updating the to the contact sheet, about me, and portfolio page html and css. Pulled boot strap layouts and working through editing everything. 1.6.21 (1:19AM)
 Edited contact html/css pages and added icons with links to all my pages. Also added icons with working links to my nav bar on each page. 1.7.21 (2:00PM)
+Finished my Porfolio code html/css (navigation bar error still to fix). Added portfolio images folder. 1.7.21 (4:38PM)
