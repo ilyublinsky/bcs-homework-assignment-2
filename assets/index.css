@@ -4,24 +4,27 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20;
     background-color: lightseagreen;
-    border-style: double;
-    border-bottom-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
   }
   
   .header {
-    padding: 90px;
+    padding: 40px;
+    margin-top: 70px;
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-bottom: 70px;
     text-align: center;
-    background: #e63b08;
+    background: #f1815f;
+    border: cadetblue;
+    border-width: 20px;
+    border-style: ridge;
     color: white;
+    font-stretch: ultra-expanded;
   }
   
   .header h1 {
     font-size: 40px;
+    font-stretch: ultra-expanded;
   }
   
   .navbar {
@@ -39,28 +42,41 @@
   }
   
   .navbar a.right {
-    float: right;
+    float: center;
   }
   
   .navbar a:hover {
     background-color: rgb(221, 221, 221);
-    color: black;
   }
 
-  .card {
+  .card1 {
     background-color: dodgerblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
+    border-style: double;
+    float: inline-end;
+  }
+
+  .card2 {
+    background-color: dodgerblue;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 100px;
+    border-style: double;
+    float: inline-end;
   }
   
-  /* Column container */
   .row {  
-    display: flex;
-    flex-wrap: wrap;
+    display:-ms-grid;
+    flex-wrap: nowrap;
   }
   
-  /* Fake image, just for this example */
   img {
     background-color: #aaa;
-    width: 30%;
+    width: 100%;
     padding: 20px;
   }
 
@@ -70,3 +86,54 @@
       margin-top: 0;
     }
   }
+
+
+  body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: rgb(247, 157, 106);
+  }
+  
+  .leftcolumn {
+    float: right;
+    width: 55%;
+    text-overflow: ellipsis;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 35%;
+    padding-left: 20px;
+  }
+  
+  img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    float: center;
+  }
+  
+  .card {
+    background-color: rgb(162, 238, 252);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
